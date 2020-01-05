@@ -2,6 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+/*
+
 var firebaseConfig = {
 	apiKey: 'AIzaSyBDkokbtT3Dm-2MZ6uEELkBxGiUy5mTENU',
 	authDomain: 'craftmonkey-b9d15.firebaseapp.com',
@@ -13,6 +15,8 @@ var firebaseConfig = {
 	measurementId: 'G-CR80JZYVBD'
 };
 // Initialize Firebase
+
+*/
 
 export const createUserProfile = async (userAuth, data) => {
 	if (!userAuth) {
