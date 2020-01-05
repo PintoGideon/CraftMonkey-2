@@ -2,6 +2,17 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
+var firebaseConfig = {
+	apiKey: 'AIzaSyBDkokbtT3Dm-2MZ6uEELkBxGiUy5mTENU',
+	authDomain: 'craftmonkey-b9d15.firebaseapp.com',
+	databaseURL: 'https://craftmonkey-b9d15.firebaseio.com',
+	projectId: 'craftmonkey-b9d15',
+	storageBucket: 'craftmonkey-b9d15.appspot.com',
+	messagingSenderId: '168144044893',
+	appId: '1:168144044893:web:5574e9d2e03328c13cdeb4',
+	measurementId: 'G-CR80JZYVBD'
+};
+
 export const createUserProfile = async (userAuth, data) => {
 	if (!userAuth) {
 		return;

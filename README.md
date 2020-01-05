@@ -10,20 +10,14 @@
 
 5. Firebase
 
-A query is a request we make to firebase to give us something from the database. Firebase returns us two types of objects.
-
-a. References
-b. Snapshots
-
-They can be either Document or Collection versions. These objects are always returned even if nothing exists at from the query.
 
 6. DocumentReference vs CollectionReference
 
-We use documentRef objects to perform our CRUD methods (create,read,update,delete). The documentRef methods are .set(), .get(),.update() and .delete().
+   We use documentRef objects to perform our CRUD methods (create,read,update,delete). The documentRef methods are .set(), .get(),.update() and .delete().
 
-We can also add documents to collections using the collectionRef object with the add() method.
+   We can also add documents to collections using the collectionRef object with the add() method.
 
-We get the snapshotObject from the referenceObject using the .get() method i.e documentRef.get() or collectionRef.get().
+   We get the snapshotObject from the referenceObject using the .get() method i.e documentRef.get() or collectionRef.get().
 
 documentRef returns a documentSnapshot object
 collectionRef returns a querySnapshot object.
