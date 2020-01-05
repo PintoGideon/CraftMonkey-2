@@ -6,7 +6,7 @@ import './Register.scss';
 import { connect } from 'react-redux';
 import { signUpStart } from '../../redux/user/userActions';
 
-export default class Login extends Component {
+class Register extends Component {
 	constructor() {
 		super();
 		this.state = {

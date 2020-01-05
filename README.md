@@ -1,12 +1,14 @@
-### Redux-Persist
+### Topis covered while building this app.
 
-### Reselect Library
+1. Redux-Persist
 
-### Data Normalization
+2. Reselect Library
 
-### BEM
+3. Data Normalization
 
-### Firebase
+4. BEM
+
+5. Firebase
 
 A query is a request we make to firebase to give us something from the database. Firebase returns us two types of objects.
 
@@ -15,7 +17,7 @@ b. Snapshots
 
 They can be either Document or Collection versions. These objects are always returned even if nothing exists at from the query.
 
-### DocumentReference vs CollectionReference
+6. DocumentReference vs CollectionReference
 
 We use documentRef objects to perform our CRUD methods (create,read,update,delete). The documentRef methods are .set(), .get(),.update() and .delete().
 
@@ -26,19 +28,19 @@ We get the snapshotObject from the referenceObject using the .get() method i.e d
 documentRef returns a documentSnapshot object
 collectionRef returns a querySnapshot object.
 
-### Batch Write
+7. Batch Write
 
-### Observer Pattern
+8. Observer Pattern
 
-### Promise Pattern
+9. Promise Pattern
 
-### Redux-Thunk
+10. Redux-Thunk
 
-### Container Pattern
+11. Container Pattern
 
-### Refactoring is a tradeoff
+12. Refactoring is a tradeoff
 
-### Generator Functions
+13. Generator Functions
 
 ```javascript
 function* gen(i) {
@@ -57,3 +59,7 @@ g.next();
 g.next();
 //{value:25, done:true}
 ```
+
+14. Redux-sagas
+
+15. React hooks
