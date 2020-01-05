@@ -10,31 +10,28 @@
 
 5. Firebase
 
-
-6. DocumentReference vs CollectionReference
+6) DocumentReference vs CollectionReference
 
    We use documentRef objects to perform our CRUD methods (create,read,update,delete). The documentRef methods are .set(), .get(),.update() and .delete().
 
    We can also add documents to collections using the collectionRef object with the add() method.
 
-   We get the snapshotObject from the referenceObject using the .get() method i.e documentRef.get() or collectionRef.get().
+   We get the snapshotObject from the referenceObject using the .get() method i.e documentRef.get() or collectionRef.get(). documentRef returns a documentSnapshot object
+   collectionRef returns a querySnapshot object.
 
-documentRef returns a documentSnapshot object
-collectionRef returns a querySnapshot object.
+7) Batch Write
 
-7. Batch Write
+8) Observer Pattern
 
-8. Observer Pattern
+9) Promise Pattern
 
-9. Promise Pattern
+10) Redux-Thunk
 
-10. Redux-Thunk
+11) Container Pattern
 
-11. Container Pattern
+12) Refactoring is a tradeoff
 
-12. Refactoring is a tradeoff
-
-13. Generator Functions
+13) Generator Functions
 
 ```javascript
 function* gen(i) {
